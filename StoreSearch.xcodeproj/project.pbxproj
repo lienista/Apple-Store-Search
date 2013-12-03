@@ -13,14 +13,14 @@
 		FCFF30B8184D85B400FAB477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCFF30B6184D85B400FAB477 /* InfoPlist.strings */; };
 		FCFF30BA184D85B400FAB477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF30B9184D85B400FAB477 /* main.m */; };
 		FCFF30BE184D85B400FAB477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF30BD184D85B400FAB477 /* AppDelegate.m */; };
-		FCFF30C1184D85B400FAB477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFF30BF184D85B400FAB477 /* Main.storyboard */; };
-		FCFF30C4184D85B400FAB477 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF30C3184D85B400FAB477 /* ViewController.m */; };
 		FCFF30C6184D85B400FAB477 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFF30C5184D85B400FAB477 /* Images.xcassets */; };
 		FCFF30CD184D85B400FAB477 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF30CC184D85B400FAB477 /* XCTest.framework */; };
 		FCFF30CE184D85B400FAB477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF30AD184D85B300FAB477 /* Foundation.framework */; };
 		FCFF30CF184D85B400FAB477 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF30B1184D85B300FAB477 /* UIKit.framework */; };
 		FCFF30D7184D85B400FAB477 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCFF30D5184D85B400FAB477 /* InfoPlist.strings */; };
 		FCFF30D9184D85B400FAB477 /* StoreSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF30D8184D85B400FAB477 /* StoreSearchTests.m */; };
+		FCFF30E5184D870C00FAB477 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF30E3184D870C00FAB477 /* SearchViewController.m */; };
+		FCFF30E6184D870C00FAB477 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFF30E4184D870C00FAB477 /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +44,15 @@
 		FCFF30BB184D85B400FAB477 /* StoreSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoreSearch-Prefix.pch"; sourceTree = "<group>"; };
 		FCFF30BC184D85B400FAB477 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCFF30BD184D85B400FAB477 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FCFF30C0184D85B400FAB477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCFF30C2184D85B400FAB477 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FCFF30C3184D85B400FAB477 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FCFF30C5184D85B400FAB477 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCFF30CB184D85B400FAB477 /* StoreSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFF30CC184D85B400FAB477 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FCFF30D4184D85B400FAB477 /* StoreSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoreSearchTests-Info.plist"; sourceTree = "<group>"; };
 		FCFF30D6184D85B400FAB477 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCFF30D8184D85B400FAB477 /* StoreSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreSearchTests.m; sourceTree = "<group>"; };
+		FCFF30E2184D870C00FAB477 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		FCFF30E3184D870C00FAB477 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		FCFF30E4184D870C00FAB477 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +114,9 @@
 			children = (
 				FCFF30BC184D85B400FAB477 /* AppDelegate.h */,
 				FCFF30BD184D85B400FAB477 /* AppDelegate.m */,
-				FCFF30BF184D85B400FAB477 /* Main.storyboard */,
-				FCFF30C2184D85B400FAB477 /* ViewController.h */,
-				FCFF30C3184D85B400FAB477 /* ViewController.m */,
+				FCFF30E2184D870C00FAB477 /* SearchViewController.h */,
+				FCFF30E3184D870C00FAB477 /* SearchViewController.m */,
+				FCFF30E4184D870C00FAB477 /* SearchViewController.xib */,
 				FCFF30C5184D85B400FAB477 /* Images.xcassets */,
 				FCFF30B4184D85B400FAB477 /* Supporting Files */,
 			);
@@ -230,7 +230,7 @@
 			files = (
 				FCFF30C6184D85B400FAB477 /* Images.xcassets in Resources */,
 				FCFF30B8184D85B400FAB477 /* InfoPlist.strings in Resources */,
-				FCFF30C1184D85B400FAB477 /* Main.storyboard in Resources */,
+				FCFF30E6184D870C00FAB477 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCFF30C4184D85B400FAB477 /* ViewController.m in Sources */,
 				FCFF30BE184D85B400FAB477 /* AppDelegate.m in Sources */,
+				FCFF30E5184D870C00FAB477 /* SearchViewController.m in Sources */,
 				FCFF30BA184D85B400FAB477 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +280,6 @@
 				FCFF30B7184D85B400FAB477 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FCFF30BF184D85B400FAB477 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCFF30C0184D85B400FAB477 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		FCFF30D5184D85B400FAB477 /* InfoPlist.strings */ = {
