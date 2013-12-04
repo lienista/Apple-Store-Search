@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCB46456184E9BE000376F2F /* SearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB46455184E9BE000376F2F /* SearchResult.m */; };
 		FCFF30AE184D85B300FAB477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF30AD184D85B300FAB477 /* Foundation.framework */; };
 		FCFF30B0184D85B300FAB477 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF30AF184D85B300FAB477 /* CoreGraphics.framework */; };
 		FCFF30B2184D85B300FAB477 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF30B1184D85B300FAB477 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FCB46454184E9BE000376F2F /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
+		FCB46455184E9BE000376F2F /* SearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResult.m; sourceTree = "<group>"; };
 		FCFF30AA184D85B300FAB477 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFF30AD184D85B300FAB477 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCFF30AF184D85B300FAB477 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +117,8 @@
 			children = (
 				FCFF30BC184D85B400FAB477 /* AppDelegate.h */,
 				FCFF30BD184D85B400FAB477 /* AppDelegate.m */,
+				FCB46454184E9BE000376F2F /* SearchResult.h */,
+				FCB46455184E9BE000376F2F /* SearchResult.m */,
 				FCFF30E2184D870C00FAB477 /* SearchViewController.h */,
 				FCFF30E3184D870C00FAB477 /* SearchViewController.m */,
 				FCFF30E4184D870C00FAB477 /* SearchViewController.xib */,
@@ -251,6 +256,7 @@
 			files = (
 				FCFF30BE184D85B400FAB477 /* AppDelegate.m in Sources */,
 				FCFF30E5184D870C00FAB477 /* SearchViewController.m in Sources */,
+				FCB46456184E9BE000376F2F /* SearchResult.m in Sources */,
 				FCFF30BA184D85B400FAB477 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +458,7 @@
 				FCFF30DE184D85B400FAB477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCFF30DF184D85B400FAB477 /* Build configuration list for PBXNativeTarget "StoreSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +467,7 @@
 				FCFF30E1184D85B400FAB477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
