@@ -11,6 +11,7 @@
 		FCB46458184ECDD100376F2F /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB46457184ECDD100376F2F /* SearchResultCell.xib */; };
 		FCB4645B184ED80E00376F2F /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB4645A184ED80E00376F2F /* SearchResultCell.m */; };
 		FCB4645D184FDBDF00376F2F /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB4645C184FDBDF00376F2F /* NothingFoundCell.xib */; };
+		FCB4645F185062B900376F2F /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB4645E185062B900376F2F /* LoadingCell.xib */; };
 		FCFF30AE184D85B300FAB477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF30AD184D85B300FAB477 /* Foundation.framework */; };
 		FCFF30B0184D85B300FAB477 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF30AF184D85B300FAB477 /* CoreGraphics.framework */; };
 		FCFF30B2184D85B300FAB477 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF30B1184D85B300FAB477 /* UIKit.framework */; };
@@ -44,6 +45,7 @@
 		FCB46459184ED80E00376F2F /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
 		FCB4645A184ED80E00376F2F /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
 		FCB4645C184FDBDF00376F2F /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NothingFoundCell.xib; path = ../NothingFoundCell.xib; sourceTree = "<group>"; };
+		FCB4645E185062B900376F2F /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		FCFF30AA184D85B300FAB477 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFF30AD184D85B300FAB477 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCFF30AF184D85B300FAB477 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,6 +132,7 @@
 				FCB4645A184ED80E00376F2F /* SearchResultCell.m */,
 				FCB46457184ECDD100376F2F /* SearchResultCell.xib */,
 				FCB4645C184FDBDF00376F2F /* NothingFoundCell.xib */,
+				FCB4645E185062B900376F2F /* LoadingCell.xib */,
 				FCFF30E2184D870C00FAB477 /* SearchViewController.h */,
 				FCFF30E3184D870C00FAB477 /* SearchViewController.m */,
 				FCFF30E4184D870C00FAB477 /* SearchViewController.xib */,
@@ -246,6 +249,7 @@
 			files = (
 				FCFF30C6184D85B400FAB477 /* Images.xcassets in Resources */,
 				FCFF30B8184D85B400FAB477 /* InfoPlist.strings in Resources */,
+				FCB4645F185062B900376F2F /* LoadingCell.xib in Resources */,
 				FCB46458184ECDD100376F2F /* SearchResultCell.xib in Resources */,
 				FCB4645D184FDBDF00376F2F /* NothingFoundCell.xib in Resources */,
 				FCFF30E6184D870C00FAB477 /* SearchViewController.xib in Resources */,
