@@ -2,7 +2,7 @@
 //  SearchResult.h
 //  StoreSearch
 //
-//  Created by Lien Nguyen on 12/3/13.
+//  Created by Lienne Nguyen on 12/3/13.
 //  Copyright (c) 2013 Lienne Nguyen. All rights reserved.
 //
 
@@ -21,5 +21,5 @@
 @property (nonatomic, copy) NSString *genre;
 
 - (NSComparisonResult)compareName:(SearchResult *)other;
-
+- (NSString *)kindForDisplay;
 @end

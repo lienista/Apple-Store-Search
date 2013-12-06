@@ -10,6 +10,7 @@
 #import "SearchResult.h"
 #import "SearchResultCell.h"
 #import <AFNetworking/AFNetworking.h>
+#import "DetailViewController.h"
 
 static NSString * const SearchResultCellIdentifier = @"SearchResultCell";
 static NSString * const NothingFoundCellIdentifier = @"NothingFoundCell";
@@ -55,6 +56,7 @@ static NSString * const LoadingCellIdentifier = @"LoadingCell";
     [self.tableView registerNib:cellNib forCellReuseIdentifier:LoadingCellIdentifier];
     
     self.tableView.contentInset = UIEdgeInsetsMake(108, 0, 0, 0);
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -278,6 +280,16 @@ static NSString * const LoadingCellIdentifier = @"LoadingCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+     DetailViewController *controller = [[DetailViewController alloc] initWithNibName:
+                                         @"DetailViewController" bundle:nil];
+    
+    SearchResult *searchResult = _searchResults[indexPath.row];
+    controller.searchResult = searchResult;
+    controller.view.frame = self.view.frame;
+    
+    [self.view addSubview:controller.view];
+    [self addChildViewController:controller];
+    [controller didMoveToParentViewController:self];
 }
 - (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
